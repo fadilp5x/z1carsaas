@@ -1,0 +1,12 @@
+{
+  "type": "template",
+  "name": "Z1Cars Available Now Poster",
+  "size": "story",
+  "background": { "color": "#000000" },
+  "elements": [
+    { "type": "image", "id": "car_image", "position": { "x": 0.5, "y": 0.3 }, "size": { "width": 0.9, "height": 0.5 } },
+    { "type": "grid", "rows": 2, "cols": 2, "position": { "x": 0.5, "y": 0.85 }, "size": { "width": 0.9, "height": 0.25 }, "placeholder": "car_details" },
+    { "type": "image", "id": "logo", "fixed": true, "position": { "x": 0.5, "y": 0.98 }, "size": { "width": 0.3, "height": 0.1 } }
+  ],
+  "brand": { "colors": ["#FFD700", "#FFFFFF", "#000000"] }
+}

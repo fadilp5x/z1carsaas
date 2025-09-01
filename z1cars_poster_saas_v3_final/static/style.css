@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; background: #111; color: #fff; margin: 0; }
+.container { max-width: 600px; margin: auto; padding: 20px; text-align: center; }
+h1 { color: #FFD700; }
+form { display: flex; flex-direction: column; gap: 10px; }
+textarea { resize: none; height: 100px; }
+button { background: #FFD700; border: none; padding: 10px; cursor: pointer; font-weight: bold; }
+button:hover { background: #ffbf00; }
+.poster { max-width: 100%; margin-top: 20px; border: 3px solid #FFD700; }
